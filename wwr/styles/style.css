@@ -52,6 +52,9 @@ color: var(--other-color);
     max-height: 1600px;
     margin: 0 auto;
 }
+#hero-img{
+width: 100%;
+}
 body{
     background-color: var(--bg-color);
 
