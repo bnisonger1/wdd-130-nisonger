@@ -1,0 +1,108 @@
+:root{
+    --bg-color: #329f5b;
+    --primary-color: #2274a5;
+    --secondary-color: #9b6a6c;
+    --text-color: #dbdaea;
+    --other-color: black;
+}
+.logo{
+    width: 80px;
+}
+.icon{
+    width: 80px;
+}
+#nav{
+    text-align: center;
+}
+
+
+#nav a{
+    color: var(--text-color);
+    text-decoration: none;
+    
+}
+#nav a:hover{
+    background-color: var(--other-color);
+    color: var(--secondary-color);
+
+}
+.home-title{
+    text-align: center;
+    color: var(--other-color);
+
+}
+.home-content{
+    text-align: center;
+
+}
+h4{
+color: var(--other-color);
+}
+.button-box{
+    text-align: center;
+}
+.main-section{
+    text-align: center;
+}
+#background{
+    height: 725px;
+    background-color: var(--bg-color);
+}
+#content{
+    max-height: 1600px;
+    margin: 0 auto;
+}
+body{
+    background-color: var(--bg-color);
+
+}
+header{
+    background-color: var(--primary-color);
+    
+}
+
+.book{
+    background-color: var(--bg-colorr);
+    color: var(--text-color);
+    text-decoration: none;
+}
+.join{
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    text-decoration: none;
+
+}
+.book:hover, .join:hover{
+    background-color: var(--other-color);
+    color: var(--text-color);
+
+}
+.msg{
+    background-color: var(--secondary-color);
+
+}
+.msg h2{
+    color: var(--text-color);
+}
+.msg p{
+    color: var(--text-color );
+
+}
+footer{
+    background-color: var(--bg-color);
+
+}
+footer a{
+    color: var(--primary-color);
+    text-decoration: none;
+    
+}
+footer p {
+    font-size: 1.2em;
+}    
+
+footer a:hover{
+    background-color: var(--other-color);
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
