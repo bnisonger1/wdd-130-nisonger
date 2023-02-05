@@ -1,3 +1,8 @@
+
+
+
+
+
 :root{
     --bg-color: pink;
     --primary-font: #000;
@@ -11,6 +16,7 @@ body {
 main {
     max-width: 500px;
     margin: 0 auto 0 auto;
+
 }
 
 h1:hover {
