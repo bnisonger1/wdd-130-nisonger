@@ -1,0 +1,46 @@
+html, 
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100%;
+    
+}
+.cherries-box {
+    grid-column: 1;
+    grid-row: 1/3;
+    background-image: url(../images/Cherries.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.gray-box{
+    grid-column: 2;
+    grid-row: 1/3;
+    background-color: gray
+}
+.text-top{
+    grid-column: 1/3;
+    grid-row: 1;
+    text-align: center;
+    font-size: 150px;
+    font-weight: bold;
+    margin: 0;
+}
+.text-bottom{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+    font-size: 75px;
+    font-weight: bold;
+    color: #bd0c0c;
+    margin: 0;
+
+}
+
