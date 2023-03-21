@@ -213,7 +213,39 @@ footer a:hover {
 footer .social img {
   padding-top: 15px;
 }
+/* for faq */
+.faqimage {
+  text-align: center;
+  margin-left: 500px;
+}
+.faqheader {
+  background-color: var(--primary-color);
+  display: grid;
+  grid-template-columns: 150px auto;
+  margin-bottom: 0px;
+}
+.faqtitle {
+  text-align: center;
+  font-size: larger;
+}
+.faqmain {
+  margin: auto;
+  margin-top: 0px;
+  padding-left: 15px;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
 
+.faqfooter {
+  background-color: var(--bg-color);
+  padding: 25px 50px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* for mobile */
 @media screen and (max-width: 900px) {
   #hero,
   .home-grid {
