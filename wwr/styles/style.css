@@ -215,8 +215,10 @@ footer .social img {
 }
 /* for faq */
 .faqimage {
-  text-align: center;
-  margin-left: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 .faqheader {
   background-color: var(--primary-color);
